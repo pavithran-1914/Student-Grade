@@ -39,19 +39,19 @@
         document.write("Student marks : "+m1+ "," + m2 + "," +m3 + "," + m4 + "," +m5 +"<br>");
         document.write("Students marks in total : "+total +"<br>");
         document.write("Student percentage : "+ percentage +"<br>");
-        if (percentage>90){
+        if (percentage>+90){
             document.write("<p> Grade-A </p>");
         }
-        else if(percentage>80 && percentage<90){
+        else if(percentage>=80 && percentage<90){
             document.write("<p> Grade-B </p>")
         }
-        else if(percentage>70 && percentage<80){
+        else if(percentage>=70 && percentage<80){
             document.write("<p> Grade-C </p>")
         }
-        else if(percentage>60 && percentage<70){
+        else if(percentage>=60 && percentage<70){
             document.write("<p> Grade-D </p>")
         }
-        else if(percentage>50 && percentage<60){
+        else if(percentage>=50 && percentage<60){
             document.write("<p> Grade-E </p>")
         }
         else{
